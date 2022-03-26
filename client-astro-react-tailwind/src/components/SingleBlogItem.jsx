@@ -2,8 +2,8 @@ import { formatDistance, format } from 'date-fns';
 import ReactMarkdown from 'react-markdown';
 
 export default function SingleBlog({ post }) {
-    const { title, content, featuredImage, created_at, updated_at, readingTime, author } = 
-        post.data && post.data.attributes || {};
+    const { attributes, id } = post || {};
+    const { title, content, featuredImage, created_at, updated_at, readingTime, author } = attributes || {};
     return (
         <>
             <div className="my-4 text-center">

@@ -1,7 +1,8 @@
 import React from 'react';
 
 export default function BlogGridItem({ post }) {
-    const { title, content, slug, featuredImage, excerpt, author } = post.data && post.data.attributes || {};
+    const { attributes, id } = post || {};
+    const { title, content, slug, featuredImage, excerpt, author } = attributes || {};
     return (
         <div className="rounded-md overflow-hidden shadow-sm p-4  transition-transform h-auto">
             <a href={`/post/${slug}`}>
@@ -34,7 +35,7 @@ export default function BlogGridItem({ post }) {
                     </div>
                     <div class="inline-flex rounded-md ">
                         <a
-                            href={`/post/${slug}`}
+                            href={`/api/posts/${id}`}
                             class="inline-flex items-center justify-center px-5 py-2 border border-transparent text-base font-medium rounded-md text-white bg-yellow-500 hover:bg-yellow-400"
                         >
                             Read article
