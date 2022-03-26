@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@babel/types": "^7.17.0",
+    "date-fns": "^2.28.0",
+    "react-markdown": "^8.0.1",
     "tailwindcss": "^3.0.23"
   }
 }
