@@ -7,7 +7,9 @@ let title = 'Blog';
         <meta name="viewport" content="width=device-width">
         <title>{`StrapiAstro| ${title}`}</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="stylesheet" type="text/css" href={Astro.resolve("../styles/global.css")}>
+        <style global>
+        @import "../styles/global.css";
+        </style>
     </head>
     <body>
         <main>
