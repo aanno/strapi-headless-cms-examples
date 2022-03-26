@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function BlogGridItem({ post }) {
-    const { title, content, slug, featuredImage, excerpt, author } = post;
+    const { title, content, slug, featuredImage, excerpt, author } = post.data && post.data.attributes || {};
     return (
         <div className="rounded-md overflow-hidden shadow-sm p-4  transition-transform h-auto">
             <a href={`/post/${slug}`}>
