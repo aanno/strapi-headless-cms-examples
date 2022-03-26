@@ -23,7 +23,7 @@ module.exports = createCoreController('api::post.post', ({ strapi }) => ({
 
         // some more logic
         if (readingTimeMin) {
-            response.readingTimeMin = readingTimeMin;
+            response.attributes.readingTimeMin = readingTimeMin;
         }
 
         return response;
@@ -43,7 +43,7 @@ module.exports = createCoreController('api::post.post', ({ strapi }) => ({
 
         // some more logic
         if (readingTimeMin) {
-            response.readingTimeMin = readingTimeMin;
+            response.attributes.readingTimeMin = readingTimeMin;
         }
 
         return response;
