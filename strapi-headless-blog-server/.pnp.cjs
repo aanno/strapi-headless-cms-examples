@@ -36,8 +36,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@strapi/plugin-i18n", "npm:4.1.5"],\
             ["@strapi/plugin-users-permissions", "npm:4.1.5"],\
             ["@strapi/strapi", "npm:4.1.5"],\
+            ["babel-eslint", "virtual:800caea111ee8df7e8b32b4a10c2978977a90186092a6a458bf07fa004720f6c0395cc581d09a9cf6c5558be73cf3414ef1fec897db43ec5053a975fb08cb1d2#npm:10.1.0"],\
             ["object-assign", "npm:4.1.1"],\
             ["react-is", "npm:17.0.2"],\
+            ["reading-time", "npm:1.5.0"],\
             ["sqlite3", "virtual:800caea111ee8df7e8b32b4a10c2978977a90186092a6a458bf07fa004720f6c0395cc581d09a9cf6c5558be73cf3414ef1fec897db43ec5053a975fb08cb1d2#npm:5.0.2"],\
             ["whatwg-fetch", "npm:3.6.2"]\
           ],\
@@ -5099,6 +5101,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["babel-eslint", [\
+        ["npm:10.1.0", {\
+          "packageLocation": "../../../../.yarn/berry/cache/babel-eslint-npm-10.1.0-6a6d2b1533-8.zip/node_modules/babel-eslint/",\
+          "packageDependencies": [\
+            ["babel-eslint", "npm:10.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:800caea111ee8df7e8b32b4a10c2978977a90186092a6a458bf07fa004720f6c0395cc581d09a9cf6c5558be73cf3414ef1fec897db43ec5053a975fb08cb1d2#npm:10.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/babel-eslint-virtual-f4255916ac/5/.yarn/berry/cache/babel-eslint-npm-10.1.0-6a6d2b1533-8.zip/node_modules/babel-eslint/",\
+          "packageDependencies": [\
+            ["babel-eslint", "virtual:800caea111ee8df7e8b32b4a10c2978977a90186092a6a458bf07fa004720f6c0395cc581d09a9cf6c5558be73cf3414ef1fec897db43ec5053a975fb08cb1d2#npm:10.1.0"],\
+            ["@babel/code-frame", "npm:7.16.7"],\
+            ["@babel/parser", "npm:7.17.8"],\
+            ["@babel/traverse", "npm:7.17.3"],\
+            ["@babel/types", "npm:7.17.0"],\
+            ["@types/eslint", null],\
+            ["eslint", null],\
+            ["eslint-visitor-keys", "npm:1.3.0"],\
+            ["resolve", "patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"]\
+          ],\
+          "packagePeers": [\
+            "@types/eslint",\
+            "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["babel-loader", [\
         ["npm:8.2.3", {\
           "packageLocation": "../../../../.yarn/berry/cache/babel-loader-npm-8.2.3-855681b984-8.zip/node_modules/babel-loader/",\
@@ -7869,6 +7899,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-scope", "npm:5.1.1"],\
             ["esrecurse", "npm:4.3.0"],\
             ["estraverse", "npm:4.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["eslint-visitor-keys", [\
+        ["npm:1.3.0", {\
+          "packageLocation": "../../../../.yarn/berry/cache/eslint-visitor-keys-npm-1.3.0-c07780a0fb-8.zip/node_modules/eslint-visitor-keys/",\
+          "packageDependencies": [\
+            ["eslint-visitor-keys", "npm:1.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14424,6 +14463,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["reading-time", [\
+        ["npm:1.5.0", {\
+          "packageLocation": "../../../../.yarn/berry/cache/reading-time-npm-1.5.0-be83d947c6-8.zip/node_modules/reading-time/",\
+          "packageDependencies": [\
+            ["reading-time", "npm:1.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["rechoir", [\
         ["npm:0.6.2", {\
           "packageLocation": "../../../../.yarn/berry/cache/rechoir-npm-0.6.2-0df5f171ec-8.zip/node_modules/rechoir/",\
@@ -15833,8 +15881,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@strapi/plugin-i18n", "npm:4.1.5"],\
             ["@strapi/plugin-users-permissions", "npm:4.1.5"],\
             ["@strapi/strapi", "npm:4.1.5"],\
+            ["babel-eslint", "virtual:800caea111ee8df7e8b32b4a10c2978977a90186092a6a458bf07fa004720f6c0395cc581d09a9cf6c5558be73cf3414ef1fec897db43ec5053a975fb08cb1d2#npm:10.1.0"],\
             ["object-assign", "npm:4.1.1"],\
             ["react-is", "npm:17.0.2"],\
+            ["reading-time", "npm:1.5.0"],\
             ["sqlite3", "virtual:800caea111ee8df7e8b32b4a10c2978977a90186092a6a458bf07fa004720f6c0395cc581d09a9cf6c5558be73cf3414ef1fec897db43ec5053a975fb08cb1d2#npm:5.0.2"],\
             ["whatwg-fetch", "npm:3.6.2"]\
           ],\
