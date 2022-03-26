@@ -5,7 +5,7 @@ export default function BlogGridItem({ post }) {
     const { title, content, slug, featuredImage, excerpt, author } = attributes || {};
     return (
         <div className="rounded-md overflow-hidden shadow-sm p-4  transition-transform h-auto">
-            <a href={`/post/${slug}`}>
+            <a href={`/api/posts/${id}`}>
                 <div className="rounded-md h-48 w-full overflow-hidden">
                     <img
                         className="object-cover w-full h-full"
