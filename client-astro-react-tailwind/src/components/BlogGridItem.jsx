@@ -5,7 +5,7 @@ export default function BlogGridItem({ post }) {
     const { title, content, slug, featuredImage, excerpt, author } = attributes || {};
     return (
         <div className="rounded-md overflow-hidden shadow-sm p-4  transition-transform h-auto">
-            <a href={`/api/posts/${id}`}>
+            <a href={`/posts/${id}`}>
                 <div className="rounded-md h-48 w-full overflow-hidden">
                     <img
                         className="object-cover w-full h-full"
@@ -35,7 +35,7 @@ export default function BlogGridItem({ post }) {
                     </div>
                     <div class="inline-flex rounded-md ">
                         <a
-                            href={`/api/posts/${id}`}
+                            href={`/posts/${id}`}
                             class="inline-flex items-center justify-center px-5 py-2 border border-transparent text-base font-medium rounded-md text-white bg-yellow-500 hover:bg-yellow-400"
                         >
                             Read article
