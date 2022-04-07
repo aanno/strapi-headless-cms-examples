@@ -9,6 +9,13 @@ Based on
 
 * https://lukasznojek.com/blog/2020/02/4-node-js-package-managers-npm-vs-yarn-1-vs-yarn-2-vs-pnpm-vs-dry/
 
+## Yarn 2 and VSCode
+
+* Launch config _must_ be in workspace file: `strapi-headless-cms-examples.code-workspace`
+* IDE (i.e. vscode) must be 'aware' of yarn 2: https://yarnpkg.com/getting-started/editor-sdks
+* `typescript` must be installed (at least as `-D`)
+* A few node modules are not compatible with yarn 2 pnp: https://yarnpkg.com/features/pnp
+
 ## strapi-headless-blog-server
 
 Run with:
