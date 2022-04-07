@@ -11,7 +11,7 @@ export default function SingleBlog({ post }) {
                 <div className="text-gray-500 flex justify-center items-center space-x-2">
                     <span className="flex space-x-2 items-center overflow-hidden">
                         <img
-                            class="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                            className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
                             src={
                                 author?.bioImage?.url
                                     ? `http://localhost:1337${author?.bioImage?.url}`

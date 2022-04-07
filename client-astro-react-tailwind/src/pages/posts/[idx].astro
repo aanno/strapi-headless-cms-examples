@@ -3,7 +3,7 @@
 import SingleBlogItem from "../../components/SingleBlogItem.jsx"
 
 // const posts2  =  await fetch('http://localhost:1337/api/posts').then(res => res.json())
-const { idx } = Astro.request.params;
+const { idx } = Astro.params;
 
 const test = {"data":[{"id":1,"attributes":{"title":"Strapi understood!","content":"# Strapi understood!\n\n* item1\n* item2\n* item3\n\nskksjskj _skjskljs_ kslkjklsj lskjielksmsbkwjweijljds fsksflks.","excerpt":"Easier than expected!","visibility":true,"readingTimeMin":2,"slug":"post-strapi-1","createdAt":"2022-03-26T18:12:04.696Z","updatedAt":"2022-03-26T18:29:51.102Z","publishedAt":"2022-03-26T18:12:06.125Z"}}],"meta":{"pagination":{"page":1,"pageSize":25,"pageCount":1,"total":1}}};
 
