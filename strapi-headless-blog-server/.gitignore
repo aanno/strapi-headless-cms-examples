@@ -6,6 +6,9 @@
 !.yarn/sdks
 !.yarn/versions
 
+# use `yarn install` to create this file
+.pnp.cjs
+
 ############################
 # OS X
 ############################

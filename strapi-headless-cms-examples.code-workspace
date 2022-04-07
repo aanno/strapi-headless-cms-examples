@@ -15,7 +15,8 @@
 				"skipFiles": [
 					"<node_internals>/**"
 				],
-				"program": "/mnt/home/tpasch/scm/aanno/strapi-headless-cms-examples/strapi-headless-blog-server/src/index.js",
+				"cwd": "./strapi-headless-blog-server",
+				"program": "/mnt/home/tpasch/scm/aanno/strapi-headless-cms-examples/strapi-headless-blog-server/src/debug.js",
 				"__workspaceFolder": "/mnt/home/tpasch/scm/aanno/strapi-headless-cms-examples/strapi-headless-blog-server/src"
 			}
 		]
